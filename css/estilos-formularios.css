@@ -3,14 +3,14 @@
 
 body {
 font-family:'Dancing Script', cursive;
-background: #252121;
+background: #ffffff;
 background-attachment: fixed;
 }
 h1 {
 font-family: 'Dancing Script', cursive;
 text-align: center;
 font-size: 3em;
-color: #fff;
+color: #000000;
 font-weight: 100;
 }
 
@@ -34,11 +34,11 @@ Lo escrito anteriormente es lo mismo que decir .text*/
 display: block;
 width: 85%;
 border: none;
-border-bottom: solid 1px #fff;
+border-bottom: solid 1px #ffffff;
 padding: 1em;
 font-size: 1em;
 font-family:'Chelsea Market', cursive;
-color: #fff;
+color: #ffffff;
 margin: 35px 0 0;
 margin-left: 8px;
 outline: none;
@@ -49,12 +49,12 @@ background-color: transparent;
 /*::seudoelemento, el placeholder es la indicación que esta
 interna en el input donde ingresan los datos*/
 ::-webkit-input-placeholder {
-color: #fff;
+color: #ffffff;
 font-family: 'Dosis', sans-serif;
 }
 input[type="submit"] {
 font-size: 1em;
-background-color: #DB9F16;
+background-color: #ffffff;
 color: #fff;
 font-family:'Chelsea Market', cursive;
 width: 100%;
@@ -71,7 +71,7 @@ text-align: center;
 letter-spacing: 1px;
 }
 input[type="submit"]:hover {
-background-color: black;
+background-color: rgb(0, 0, 0);
 -webkit-tranform: translateY(9px);
 -ms-tranform: translateY(9px);
 -o-tranform: translateY(9px);
@@ -80,12 +80,12 @@ transform: translateY(9px);
 .form-p {
 margin-top: 5px;
 font-size: 1.1em;
-color: #fff;
+color: #ffffff;
 letter-spacing: 3px;
 text-align: center;
 }
 .form-p a {
-color: #fff;
+color: #ffffff;
 text-decoration: none;
 -webkit-transition: .5s all;
 -ms-transition: .5s all;
