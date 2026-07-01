@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Mascotas</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color: #dfdfdfcb;">
+
+    <!-- BARRA SUPERIOR -->
+    <div class="container-fluid text-white py-2"
+         style="background-color: #3f1c64;">
+
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 small w-100">
+
+            <div class="d-flex align-items-center gap-1">
+                <i class="bi bi-telephone-fill"></i>
+                <span class="fw-bold">Llámanos +57 300 910 8496</span>
+            </div>
+
+            <span>Compras seguras online</span>
+            <span>Pago contra entrega</span>
+            <span>Entregas el mismo día</span>
+
+            <div class="d-flex align-items-center gap-3">
+                <span>Síguenos en:</span>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-tiktok"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- HEADER -->
+    <nav class="navbar py-0"
+         style="background-color: #5e3d8e;">
+
+        <div class="container">
+
+            <div class="row w-100 align-items-center">
+
+                <!-- LOGO -->
+                <div class="col-auto">
+
+                    <a class="navbar-brand m-0" href="#">
+
+                        <img src="https://play-lh.googleusercontent.com/xA13otULjme4ORKDU4NrnULIheexbKag6nOJycJ46QiS8yCrbxEsQQH7ERFJyoITD0NQ"
+                             alt="logo"
+                             style="height: 105px;">
+
+                    </a>
+
+                </div>
+
+                <!-- BUSCADOR -->
+                <div class="col d-flex justify-content-center px-md-4">
+
+                    <form class="input-group" style="width: 650px;">
+
+                        <input class="form-control border-1 py-3 rounded-start-2"
+                               type="search"
+                               placeholder="Buscar productos, marcas y más...">
+
+                        <button class="btn btn-light border-0 rounded-end-2"
+                                type="submit">
+
+                            <i class="bi bi-search text-secondary"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <!-- DERECHA -->
+                <div class="col-auto d-flex align-items-center gap-4 text-white">
+
+                    <div class="d-flex align-items-center gap-2"
+                         style="cursor: pointer;">
+
+                        <i class="bi bi-person fs-3"></i>
+
+                        <span class="fw-semibold d-none d-md-inline">
+                            Mi cuenta
+                        </span>
+
+                    </div>
+
+                    <div class="position-relative"
+                         style="cursor: pointer;">
+
+                        <i class="bi bi-cart3 fs-3"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- MENÚ -->
+    <div class="container-fluid bg-light border-top">
+
+        <div class="container">
+
+            <div class="d-flex justify-content-between align-items-center py-3">
+
+                <!-- MENÚ IZQUIERDA -->
+                <ul class="nav align-items-center gap-4">
+
+                    <!-- PERRO -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle text-dark fw-semibold"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown">
+
+                            Perro
+
+                        </a>
+
+                        <ul class="dropdown-menu shadow border-0 rounded-4 p-2"
+                            style="width: 340px;">
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Alimento
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Juguetes
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Farmapet
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Accesorios
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Cuidado e Higiene
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <!-- GATO -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle text-dark fw-semibold"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown">
+
+                            Gato
+
+                        </a>
+
+                        <ul class="dropdown-menu shadow border-0 rounded-4 p-2"
+                            style="width: 340px;">
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Alimento
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Arenas
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Juguetes
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Farmapet
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Accesorios
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Cuidado e Higiene
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Snacks
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    Marcas Exclusivas
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item py-3 fs-5 d-flex justify-content-between"
+                                   href="#">
+
+                                    imPETdibles
+                                    <i class="bi bi-chevron-right"></i>
+
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <!-- SERVICIOS -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark fw-semibold">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <!-- PROMOCIONES -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark fw-semibold">
+                            Promociones
+                        </a>
+                    </li>
+
+                    <!-- TIENDAS -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark fw-semibold">
+                            Tiendas
+                        </a>
+                    </li>
+
+                    <!-- MEMBER -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark fw-semibold">
+                            Laika Member
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- BOTÓN -->
+                <button class="btn text-white px-4 py-2"
+                        style="background-color: #472485;
+                               border-radius: 12px;">
+
+                    <i class="bi bi-geo-alt-fill"></i>
+
+                    Selecciona una ciudad
+
+                    <i class="bi bi-chevron-down"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- CARRUSEL -->
+<div class="container my-4">
+
+    <div id="carouselLaikaNativo"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <!-- Slides -->
+        <div class="carousel-inner rounded-4 overflow-hidden">
+
+            <div class="carousel-item active">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fbanners%2F737f8bec4b0428b971eb0e9f8a3326a2_1778014661.jpg&w=3840&q=75"
+                     class="d-block w-100"
+                     alt="Banner 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fbanners%2F00c52ef0b4ff6e2e0be38bf830835686_1777922452.jpg&w=3840&q=75"
+                     class="d-block w-100"
+                     alt="Banner 2">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fbanners%2F475a24e60dc3664011965dbd0550c4ac_1777924353.jpg&w=3840&q=75"
+                     class="d-block w-100"
+                     alt="Banner 3">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fbanners%2F6f6e29149ae6bc51a2b5c1161a0a2c86_1777923413.jpg&w=3840&q=75"
+                     class="d-block w-100"
+                     alt="Banner 4">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fbanners%2F737f8bec4b0428b971eb0e9f8a3326a2_1777926106.jpg&w=3840&q=75"
+                     class="d-block w-100"
+                     alt="Banner 5">
+            </div>
+
+        </div>
+
+        <!-- Flecha izquierda -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselLaikaNativo"
+                data-bs-slide="prev">
+
+            <span class="bg-dark bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center">
+                <span class="carousel-control-prev-icon"></span>
+            </span>
+
+        </button>
+
+        <!-- Flecha derecha -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselLaikaNativo"
+                data-bs-slide="next">
+
+            <span class="bg-dark bg-opacity-25 rounded-circle p-3 d-flex align-items-center justify-content-center">
+                <span class="carousel-control-next-icon"></span>
+            </span>
+
+        </button>
+
+        <!-- Indicadores abajo -->
+        <div class="carousel-indicators position-static mt-3 mb-0">
+
+            <button type="button"
+                    data-bs-target="#carouselLaikaNativo"
+                    data-bs-slide-to="0"
+                    class="active rounded-circle"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    style="width:12px;height:12px;">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carouselLaikaNativo"
+                    data-bs-slide-to="1"
+                    class="rounded-circle"
+                    aria-label="Slide 2"
+                    style="width:12px;height:12px;">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carouselLaikaNativo"
+                    data-bs-slide-to="2"
+                    class="rounded-circle"
+                    aria-label="Slide 3"
+                    style="width:12px;height:12px;">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carouselLaikaNativo"
+                    data-bs-slide-to="3"
+                    class="rounded-circle"
+                    aria-label="Slide 4"
+                    style="width:12px;height:12px;">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#carouselLaikaNativo"
+                    data-bs-slide-to="4"
+                    class="rounded-circle"
+                    aria-label="Slide 5"
+                    style="width:12px;height:12px;">
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- CARRUSEL -->
+    <div class="container my-5">
+        <div class="row g-4"> <div class="col-12 col-md-6">
+                <div class="rounded-4 p-4 d-flex align-items-center h-100 shadow-sm" style="background-color: #fbeea4;">
+                    <div class="row align-items-center w-100">
+                        <div class="col-5">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fhome%2Fperros-001.png&w=384&q=75" class="img-fluid" alt="Perro">
+                        </div>
+                        <div class="col-7">
+                            <h2 class="fw-bold mb-2" style="font-size: 1.8rem; color: #333;">Cuida a tu mejor amigo</h2>
+                            <p class="mb-4" style="color: #444; font-size: 0.95rem;">Todo lo que necesita para ser feliz y saludable.</p>
+                            <button class="btn px-4 py-2 text-white fw-bold" style="background-color: #5e3d8e; border-radius: 10px;">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="rounded-4 p-4 d-flex align-items-center h-100 shadow-sm" style="background-color: #a4e5f7;">
+                    <div class="row align-items-center w-100">
+                        <div class="col-5">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fhome%2Fgatos-001.png&w=384&q=75" class="img-fluid" alt="Gato">
+                        </div>
+                        <div class="col-7">
+                            <h2 class="fw-bold mb-2" style="font-size: 1.8rem; color: #333;">Mima a tu felino</h2>
+                            <p class="mb-4" style="color: #444; font-size: 0.95rem;">Productos hechos para su comodidad y diversión.</p>
+                            <button class="btn px-4 py-2 text-white fw-bold" style="background-color: #5e3d8e; border-radius: 10px;">
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+<!-- apartado -->
+<div class="container my-5">
+    
+    <div class="mb-4">
+        <h3 class="fw-bold text-dark m-0" style="font-size: 1.6rem;">Favoritos para tu PET-AMIGO</h3>
+        <p class="text-muted small m-0 mt-1">Descubre descuentos exclusivos, combos y precios especiales en nuestros productos por tiempo limitado.</p>
+    </div>
+
+    <div id="carouselProductos" class="carousel slide" data-bs-ride="false">
+        
+        <div class="carousel-inner pb-5">
+            
+            <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+                    
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts-3%2Ff3ccdd27d2000e3f9255a7e3e2c48800_1692135452.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 1">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 1</h5>
+                            <div class="fw-bold text-dark fs-5">$142.000</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($14.200/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $132.060 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">100 tbs</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts%2Fa6350e730fbbd7f42a9e827c1dd15f77_1776796589.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 2">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 2</h5>
+                            <div class="fw-bold text-dark fs-5">$70.900</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($11,15/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $65.228 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="d-flex gap-1 mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">14 LB</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts%2F9ac11193875df311956e09aa6f015609_1759433940.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 3">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 3</h5>
+                            <div class="fw-bold text-dark fs-5">$3.600</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($12/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $3.420 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">300 GR</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts-3%2F0009aa26f62b8daa503a61243e4091c0_1686267733.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 4">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 4</h5>
+                            <div class="fw-bold text-dark fs-5">$30.300</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($37,88/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $27.270 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">ÚNICA</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts%2Fad77d5febc4f19d928fe5867fc6d3b68_1739306871.jpg&w=3840&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 5">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 5</h5>
+                            <div class="fw-bold text-dark fs-5">$235.900</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($67,59/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $214.669 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">17.6 LB</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+                    
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts-3%2F3f5dde3575c920f2957c3ffa660baa44_1700241463.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 6">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 6</h5>
+                            <div class="fw-bold text-dark fs-5">$50.000</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($10/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $45.000 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">1 KG</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts-3%2Ffe73fe9b291f2132aee5aac1a7933f35_1673042539.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 7">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 7</h5>
+                            <div class="fw-bold text-dark fs-5">$12.500</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($5/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $11.000 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">500 GR</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts%2Fe2f7fbcfa52a6df2d9825df52b851ae4_1757423954.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 8">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 8</h5>
+                            <div class="fw-bold text-dark fs-5">$95.000</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($20/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $89.000 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">ÚNICA</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts%2F0695768035b13001aa9ac18e2181021c_1767018657.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 9">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 9</h5>
+                            <div class="fw-bold text-dark fs-5">$35.000</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($35/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $31.500 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">Pack x2</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow-sm p-3 bg-white rounded-3">
+                            <div class="text-center mb-3" style="height: 140px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fproducts-3%2Ff3ccdd27d2000e3f9255a7e3e2c48800_1692135452.jpg&w=1920&q=75" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Producto 10">
+                            </div>
+                            <span class="text-muted d-block mb-1" style="font-size: 12px;">Por Marca</span>
+                            <h5 class="fw-bold text-dark mb-2" style="font-size: 14px; min-height: 38px; line-height: 1.2;">Nombre Producto 10</h5>
+                            <div class="fw-bold text-dark fs-5">$18.900</div>
+                            <span class="text-muted d-block mb-2" style="font-size: 11px;">($18/gr)</span>
+                            <div class="fw-semibold mb-3" style="color: #5e3d8e; font-size: 13px;">
+                                Member $16.900 <i class="bi bi-crown-fill text-warning small"></i>
+                            </div>
+                            <div class="mb-3">
+                                <span class="badge border rounded-1 px-2 py-1 text-dark bg-transparent" style="font-size: 11px; border-color: #5e3d8e !important;">250 ML</span>
+                            </div>
+                            <button class="btn w-100 text-white fw-bold py-2 mt-auto" style="background-color: #5e3d8e; border-radius: 8px; font-size: 14px;">Agregar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="carousel-indicators mb-0" style="bottom: -15px;">
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="0" class="active" aria-current="true" style="width: 9px; height: 9px; border-radius: 50%; background-color: #5e3d8e; border: none; margin: 0 4px; opacity: 1;"></button>
+            <button type="button" data-bs-target="#carouselProductos" data-bs-slide-to="1" style="width: 9px; height: 9px; border-radius: 50%; background-color: transparent; border: 2px solid #5e3d8e; margin: 0 4px; opacity: 1;"></button>
+        </div>
+
+    </div>
+
+<div class="container-fluid my-5 d-flex justify-content-center px-1">
+    <div class="w-100 text-center" style="max-width: 1300px;">
+        <a href="#" class="d-block text-decoration-none shadow-sm rounded-4 overflow-hidden">
+            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fbanners%2Fdownload-app-001.jpg&w=1200&q=75" 
+                 class="w-100" 
+                 style="object-fit: cover; height: 240px;" 
+                 alt="Membresía Laika Member">
+        </a>
+    </div>
+</div>
+
+<!-- varios contenedores -->
+</div>
+
+    <div class="container my-5">
+    <div class="row g-3">
+        
+        <div class="col-12 col-md-4">
+            <div class="card h-100 border-0 rounded-4 overflow-hidden position-relative shadow-sm" style="min-height: 340px;">
+                <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fsections%2F1-desk-categorias.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Catálogo">
+                
+                <div class="position-absolute bottom-0 start-0 w-100 p-3 pt-5 text-white fw-bold fs-5"
+                     style="background: linear-gradient(to top right, #1abc9c 40%, transparent 45%); z-index: 2;">
+                    Catálogo
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-8">
+            <div class="row g-3">
+                
+                <div class="col-12 col-sm-6">
+                    <div class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm" style="height: 162px;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fsections%2F3-desk-stores.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Tiendas">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 pt-4 text-white fw-bold"
+                             style="background: linear-gradient(to top right, #ff8c00 40%, transparent 45%); font-size: 15px; z-index: 2;">
+                            Tiendas
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <div class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm" style="height: 162px;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fsections%2F2-desk-members.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Laika Member">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 pt-4 text-white fw-bold"
+                             style="background: linear-gradient(to top right, #f1c40f 40%, transparent 45%); font-size: 15px; z-index: 2;">
+                            Laika Member
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <div class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm" style="height: 162px;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fsections%2F4-desk-vet.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Veterinario">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 pt-4 text-white fw-bold"
+                             style="background: linear-gradient(to top right, #e84393 45%, transparent 50%); font-size: 15px; z-index: 2;">
+                            Veterinario a Domicilio
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <div class="card border-0 rounded-4 overflow-hidden position-relative shadow-sm" style="height: 162px;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fsections%2F5-desk-vetcare.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="VetCare">
+                        <div class="position-absolute bottom-0 start-0 w-100 p-2 pt-4 text-white fw-bold"
+                             style="background: linear-gradient(to top right, #4a69bd 40%, transparent 45%); font-size: 15px; z-index: 2;">
+                            VetCare
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <div class="container my-5">
+    <div class="row g-4 align-items-stretch">
+        
+        <div class="col-12 col-md-6">
+            <div class="row g-2 h-100" style="min-height: 450px;">
+                
+                <div class="col-6 d-flex flex-column gap-2">
+                    <div class="rounded-3 overflow-hidden flex-grow-1 shadow-sm position-relative" style="height: 70%;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fseo%2Fseo-2.jpg&w=3840&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Foto Mascotas 1">
+                    </div>
+                    <div class="rounded-3 overflow-hidden shadow-sm position-relative" style="height: 30%;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fseo%2Fseo-3.jpg&w=3840&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Foto Tienda 2">
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex flex-column gap-2">
+                    <div class="rounded-3 overflow-hidden shadow-sm position-relative" style="height: 30%;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fseo%2Fseo-1.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Foto App 3">
+                    </div>
+                    <div class="rounded-3 overflow-hidden flex-grow-1 shadow-sm position-relative" style="height: 70%;">
+                        <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fsettings%2Fseo%2Fseo-4.jpg&w=1920&q=75" class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;" alt="Foto Equipo 4">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <div class="py-2" style="color: #444;">
+                <h2 class="fw-bold mb-3" style="font-size: 1.65rem; line-height: 1.3;">
+                    <span style="color: #5e3d8e;">LAIKA:</span> La Tienda Online de Mascotas que tu PET-AMIGO Necesita
+                </h2>
+                
+                <p class="mb-3 text-secondary" style="font-size: 0.92rem; text-align: justify; line-height: 1.6;">
+                    LAIKA fue el primer ser vivo en conocer el espacio, y así se convirtió en nuestra guardiana, ahora se encarga de todo el universo de cuidado y bienestar para tu PET-AMIGO en un solo lugar.
+                </p>
+                
+                <p class="mb-3 text-secondary" style="font-size: 0.92rem; text-align: justify; line-height: 1.6;">
+                    Al navegar en LAIKA descubrirás un sistema de envíos a domicilio el mismo día que te conecta desde los accesorios más trendy y adorables para perros y gatos, el alimento y snacks que conquista cualquier paladar, los juguetes perfectos que aseguran una diversión de otro mundo, las camas más cómodas y confortables que llevarán a tener sueños bajo las estrellas, y todo para verse y sentirse como los más guapos, cepillos, shampoo, arenas para gatos exigentes y todos los productos de higiene y farmacia para perros y gatos.
+                </p>
+                
+                <p class="mb-0 text-secondary" style="font-size: 0.92rem; text-align: justify; line-height: 1.6;">
+                    Nuestra misión es acompañar sus momentos juntos, de esta forma creamos 2 universos uno de ellos digital (app y web) para que sea fácil y rápido conseguir lo que necesiten y otro en tiendas físicas que responde a materializar un mundo mágico para nuestros PET-AMIGOS, creemos que el amor por los animales es lo que nos une, y en LAIKA, queremos ser parte de esa conexión. Únete a nosotros en este viaje intergaláctico de exploración y cuidado, donde las necesidades de tu PET-AMIGOS son siempre nuestra estrella polar.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    <div class="container my-5">
+    
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h3 class="fw-bold text-dark m-0" style="font-size: 1.5rem;">
+                Todas <span style="color: #5e3d8e;">las marcas</span>
+            </h3>
+            <p class="text-muted small m-0 mt-1">Todas nuestras mejores marcas.</p>
+        </div>
+        <a href="#" class="text-decoration-none fw-semibold small" style="color: #5e3d8e;">
+            Ver todas las marcas <i class="bi bi-chevron-double-right"></i>
+        </a>
+    </div>
+
+    <div id="carouselMarcas" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner pb-4">
+            
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
+                    
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2Fnutra_nuggets_circulo3.png&w=256&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2Fproplan_circulo1.png&w=256&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 2">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2Ftotal_max_circulo3.png&w=256&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 3">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2F4f8cab144242eaf64624e8118c2183c0_1712413250.jpg&w=256&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 4">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2FEQUILIBRIO_CIRCULO3.png&w=256&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 5">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2Fhills_circulo5.png&w=640&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 6">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2Fd4243b2d6ca86e479e25a1746e1ac940_1697823230.jpg&w=640&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 7">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2FBR_FOR_DOG_CIRCULO.png&w=640&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 8">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories%2FBR_FOR_CAT2.png&w=640&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 9">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border rounded-3 p-3 bg-white d-flex align-items-center justify-content-center shadow-sm" style="height: 120px; border-color: #eee !important;">
+                            <img src="https://laika.com.co/_next/image?url=https%3A%2F%2Fstatic.laika.digital%2Fcategories-2%2F1589395980_ROYAL_CANIN_500X500.png&w=640&q=75" class="img-fluid" style="max-height: 75px; object-fit: contain;" alt="Marca 10">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
+                    </div>
+            </div>
+
+        </div>
+
+        <div class="carousel-indicators mb-0" style="bottom: -10px;">
+            <button type="button" data-bs-target="#carouselMarcas" data-bs-slide-to="0" class="active" aria-current="true" style="width: 8px; height: 8px; border-radius: 50%; background-color: #5e3d8e; border: none; margin: 0 4px; opacity: 1;"></button>
+            <button type="button" data-bs-target="#carouselMarcas" data-bs-slide-to="1" style="width: 8px; height: 8px; border-radius: 50%; background-color: transparent; border: 2px solid #5e3d8e; margin: 0 4px; opacity: 1;"></button>
+        </div>
+    </div>
+</div>
+
+
+<footer class="w-100 border-top bg-white pt-5 pb-3" style="border-color: #f0f0f0 !important;">
+    <div class="container">
+        
+        <div class="mb-4">
+            <img src="" style="width: 32px; height: auto;" alt="Laika Icon">
+        </div>
+
+        <div class="row g-4 mb-5">
+            
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="fw-bold mb-3" style="color: #5e3d8e; font-size: 0.95rem;">Conócenos</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2" style="font-size: 0.88rem;">
+                    <li><a href="#" class="text-secondary text-decoration-none">Trabaja con nosotros</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Servicios</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="fw-bold mb-3" style="color: #5e3d8e; font-size: 0.95rem;">Información</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2" style="font-size: 0.88rem;">
+                    <li><a href="#" class="text-secondary text-decoration-none">Términos y Condiciones</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Preguntas frecuentes</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Política de privacidad</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Políticas de entrega</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="fw-bold mb-3" style="color: #5e3d8e; font-size: 0.95rem;">Encuéntranos</h6>
+                <ul class="list-unstyled d-flex flex-column gap-2" style="font-size: 0.88rem;">
+                    <li><a href="#" class="text-secondary text-decoration-none">Nuestras tiendas</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-3">
+                <h6 class="fw-bold mb-2" style="color: #5e3d8e; font-size: 0.95rem;">Suscríbete</h6>
+                <p class="text-muted small mb-3">Recibe noticias y promociones diarias</p>
+                
+                <div class="input-group mb-3" style="max-width: 280px;">
+                    <input type="email" class="form-control" placeholder="Correo electrónico" style="font-size: 0.9rem; border-color: #ccc; border-top-left-radius: 8px; border-bottom-left-radius: 8px;">
+                    <button class="btn text-white px-3" type="button" style="background-color: #5e3d8e; border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="border-top pt-3" style="border-color: #f3f3f3 !important; font-size: 0.78rem; color: #777;">
+            <div class="row align-items-center g-3">
+                
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <p class="m-0 mb-1">
+                        <a href="https://www.sic.gov.co" target="_blank" class="text-decoration-none" style="color: #7d5fff;">https://www.sic.gov.co</a> / Proyecto E S.A.S. / NIT: 901.110.407 -4 / Dirección de notificación judicial: Cra 68G No. 74B - 56, Bogotá DC
+                    </p>
+                    <p class="m-0">
+                        Teléfono: <span style="color: #7d5fff;">+57 300 910 8496</span> / Correo electrónico para notificación judicial: <a href="mailto:contabilidad@laika.com.co" class="text-decoration-none" style="color: #7d5fff;">contabilidad@laika.com.co</a>
+                    </p>
+                    <p class="m-0 mt-3 text-dark fw-medium">Copyright ©️ LAIKA todos los derechos reservados</p>
+                </div>
+
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    <div class="d-flex gap-2 justify-content-center justify-content-md-end align-items-center flex-wrap">
+                        <img src="LOGO_VISA.png" style="height: 14px; opacity: 0.8;" alt="Visa">
+                        <img src="LOGO_MASTERCARD.png" style="height: 14px; opacity: 0.8;" alt="Mastercard">
+                        <img src="LOGO_AMEX.png" style="height: 14px; opacity: 0.8;" alt="Amex">
+                        <img src="LOGO_EPAYCO.png" style="height: 14px; opacity: 0.8;" alt="Epayco">
+                        <img src="LOGO_NEQUI.png" style="height: 14px; opacity: 0.8;" alt="Nequi">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
